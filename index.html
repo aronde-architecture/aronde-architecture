@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<meta content="ARONDE Architecture, architecte à Gruissan en Occitanie. construction, transformation et extension. matière, climat, usages." name="description"/>
+<meta content="ARONDE Architecture, architecte à Gruissan en Occitanie. Construction, transformation et extension. Matière, climat, usages." name="description"/>
 <meta content="index,follow" name="robots"/>
 <meta content="#ffffff" name="theme-color"/>
 <title>Architecte à Gruissan | ARONDE Architecture</title>
@@ -12,12 +12,12 @@
 <meta content="website" property="og:type"/>
 <meta content="fr_FR" property="og:locale"/>
 <meta content="Architecte à Gruissan | ARONDE Architecture" property="og:title"/>
-<meta content="ARONDE Architecture — construction, transformation et extension. matière, climat, usages." property="og:description"/>
+<meta content="ARONDE Architecture — Construction, transformation et extension. Matière, climat, usages." property="og:description"/>
 <meta content="https://aronde-architecture.fr/" property="og:url"/>
 <meta content="ARONDE Architecture" property="og:site_name"/><meta content="https://aronde-architecture.fr/hero.jpg" property="og:image"/><meta content="1260" property="og:image:width"/><meta content="945" property="og:image:height"/><meta content="Vue panoramique en noir et blanc de Gruissan — ARONDE Architecture" property="og:image:alt"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Architecte à Gruissan | ARONDE Architecture" name="twitter:title"/>
-<meta content="construction, transformation et extension. matière, climat, usages." name="twitter:description"/><meta content="https://aronde-architecture.fr/hero.jpg" name="twitter:image"/>
+<meta content="Construction, transformation et extension. Matière, climat, usages." name="twitter:description"/><meta content="https://aronde-architecture.fr/hero.jpg" name="twitter:image"/>
 <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
@@ -26,7 +26,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://aronde-architecture.fr/#organization",
     "name": "ARONDE Architecture",
+    "logo": "https://aronde-architecture.fr/apple-touch-icon.png",
     "url": "https://aronde-architecture.fr/",
     "email": "contact@aronde-architecture.fr",
     "telephone": "+33651261941",
@@ -53,6 +55,22 @@
     ]
   }
   </script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://aronde-architecture.fr/#website",
+    "url": "https://aronde-architecture.fr/",
+    "name": "ARONDE Architecture",
+    "alternateName": "ARONDE",
+    "inLanguage": "fr-FR",
+    "publisher": {
+      "@id": "https://aronde-architecture.fr/#organization"
+    }
+  }
+</script>
+
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
@@ -1626,14 +1644,6 @@
         width: min(21vw, 195px);
       }
     }
-
-    /* V20 — recalage optique de la ligne d'activité en portrait. */
-    @media (orientation: portrait) and (max-width: 700px) {
-      .services > span {
-        transform: translateX(-2px);
-      }
-    }
-
 </style>
 </head>
 <body>
